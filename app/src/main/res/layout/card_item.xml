@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_circle"
+    android:layout_marginTop="2pt"
+    android:layout_marginLeft="1pt"
+    android:layout_marginRight="1pt"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_margin="5pt"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="7pt"
+        android:textColor="#FF4C29"
+        android:textStyle="bold"
+        android:text="User_Id :" />
+
+    <TextView
+        android:id="@+id/tv_user_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="2pt"
+        android:textColor="#082032"
+        android:textStyle="italic|bold"
+        android:textSize="7pt"
+        android:text="1" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="2pt"
+        android:textColor="#FF4C29"
+        android:textStyle="bold"
+        android:textSize="7pt"
+        android:text="Id :" />
+
+    <TextView
+        android:id="@+id/tv_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="2pt"
+        android:textSize="7pt"
+        android:textColor="@color/black"
+        android:textStyle="italic|bold"
+        android:text="3" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#FF4C29"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="2pt"
+        android:textSize="7pt"
+        android:text="Title :" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="2pt"
+        android:textSize="7pt"
+
+        android:textColor="@color/black"
+        android:textStyle="italic|bold"
+        android:text="ea molestias quasi exercitationem repellat qui ipsa sit aut" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="2pt"
+        android:textColor="#FF4C29"
+        android:textStyle="bold"
+        android:textSize="7pt"
+        android:text="Body :" />
+
+    <TextView
+        android:id="@+id/tv_body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="italic|bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="2pt"
+        android:textSize="7pt"
+        android:text="et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut" />
+</LinearLayout>
+</LinearLayout>
